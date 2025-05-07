@@ -1,25 +1,25 @@
 package atividadePraticaPOO.model;
 
 public class Cosmetico extends Produto{
-	private String fragancia;
+	private String fragrancia;
 
-	public Cosmetico(int id, String nome, int tipo, float preco, String fragancia) {
+	public Cosmetico(int id, String nome, int tipo, float preco, String fragrancia) {
 		super(id, nome, tipo, preco);
-		this.fragancia = fragancia;
+		this.fragrancia = fragrancia;
 	}
 
-	public String getFragancia() {
-		return fragancia;
+	public String getfragrancia() {
+		return fragrancia;
 	}
 
-	public void setFragancia(String fragancia) {
-		this.fragancia = fragancia;
+	public void setfragrancia(String fragrancia) {
+		this.fragrancia = fragrancia;
 	}
 	
 	@Override
 	public void	visualizar() {
 		super.visualizar();
-		System.out.println("Fragancia do produto: " + this.getFragancia());
+		System.out.println("fragrancia do produto: " + this.getfragrancia());
 		System.out.println("*************************************************");
 	};
 }

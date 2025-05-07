@@ -18,7 +18,7 @@ public class Menu {
 		
 		float preco;
 		int tipo, numeroProduto;
-		String nomeProduto,generico,fragancia;
+		String nomeProduto,generico,fragrancia;
 
 		int opcao;
 
@@ -79,10 +79,10 @@ public class Menu {
 					}
 				}else if (productChoose == 2) {
 					tipo = productChoose;
-					System.out.println("Qual a fragancia do produto?");
+					System.out.println("Qual a fragrancia do produto?");
 					leia.skip("\\R");
-					fragancia = leia.nextLine();
-					Cosmetico newProd = new Cosmetico (instanciaProduto.identifierNumGenerate(),nomeProduto,tipo,preco,fragancia);
+					fragrancia = leia.nextLine();
+					Cosmetico newProd = new Cosmetico (instanciaProduto.identifierNumGenerate(),nomeProduto,tipo,preco,fragrancia);
 					instanciaProduto.cadastrarProduto(newProd);
 				}
 				keyPress();
@@ -129,10 +129,10 @@ public class Menu {
 					}
 				}else if (rechangeProdType == 2) {
 					tipo = rechangeProdType;
-					System.out.println("Qual a fragancia do produto?");
+					System.out.println("Qual a fragrancia do produto?");
 					leia.skip("\\R");
-					fragancia = leia.nextLine();
-					instanciaProduto.atualizarDadosProduto(numeroProduto,new Cosmetico (numeroProduto,nomeProduto,tipo,preco,fragancia));
+					fragrancia = leia.nextLine();
+					instanciaProduto.atualizarDadosProduto(numeroProduto,new Cosmetico (numeroProduto,nomeProduto,tipo,preco,fragrancia));
 				}
 				keyPress();
 				break;
