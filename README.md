@@ -127,4 +127,4 @@ Compartilhar com colegas que estejam aprendendo Java!
 8. Contato
 <br />
 
-Desenvolvido por Rafael Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
+Desenvolvido por Lucas Manrick Teodoro da Fonseca Para dúvidas e README prototipo feito por Rafael Queiróz (instrutor Generation), sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
